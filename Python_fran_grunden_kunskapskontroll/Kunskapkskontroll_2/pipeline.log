@@ -1,0 +1,10 @@
+[2024-09-25 13:45:46][api] Fetching data...
+[2024-09-25 13:45:46][urllib3.connectionpool] Starting new HTTPS connection (1): api.the-odds-api.com:443
+[2024-09-25 13:45:46][urllib3.connectionpool] https://api.the-odds-api.com:443 "GET /v4/sports/soccer_epl/odds?apiKey=d5a19ef044b5422a82fb62df1d39aa7f&regions=eu&markets=h2h&oddsFormat=decimal&dateFormat=iso HTTP/11" 200 5519
+[2024-09-25 13:45:46][api] Response code: 200
+[2024-09-25 13:45:46][api] Data fetched successfully
+[2024-09-25 13:45:46][datacleaner] Data cleaning successful, total cleaned matches: 20
+[2024-09-25 13:45:46][datasaver] Saving data...
+[2024-09-25 13:45:46][datasaver] Table 'odds_data' created or already exists.
+[2024-09-25 13:45:46][datasaver] Data saved successfully.
+[2024-09-25 13:45:46][root] Able to retrieve and save data
